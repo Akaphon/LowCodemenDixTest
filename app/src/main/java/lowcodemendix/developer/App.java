@@ -36,7 +36,11 @@ public class App {
 
         FindTheOddInt.FindTheOdd(input2);
             
-        
+        ///////////ข้อที่3
+        System.out.println("------Ans3------");
+        String[] smileys = {":)", ";(", ";}", ":-D"};
+        int count = Smiley.countSmileys(smileys);
+        System.out.println("Total smileys: " + count);
         
         scanner.close();
         scanner2.close();
